@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox training</title>
+    <link rel="stylesheet" href="./normalise.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="backdrop">
+        
+        <form class="form">
+            <fieldset class="fieldset">
+                <legend class="legend">Lets do checkboxes first</legend>
+            <div class="checkbox-container">
+                <input type="checkbox" name="first-one" id="first-one" class="checkbox visually-hidden">
+                <label for="first-one" class="checkbox-label">First checkbox</label>
+            </div>
+            
+            <div class="checkbox-container">
+                <input type="checkbox" name="second-one" id="second-one" class="checkbox visually-hidden" checked>
+                <label for="second-one" class="checkbox-label">Second checkbox</label>
+            </div>
+        </fieldset>
+           <fieldset class="fieldset">
+            <legend class="legend"> Now lets do radio buttons</legend>
+            <div class="radio-wrapper"><input type="radio" name="radio" class="radio-input visually-hidden" id="radio-input-1" value="1"><label for="radio-input-1" class="radio-label">Option 1</label></div>
+            <div class="radio-wrapper"><input type="radio" name="radio" class="radio-input visually-hidden" id="radio-input-2" value="2" checked><label for="radio-input-2" class="radio-label">Option 2</label></div>
+            <div class="radio-wrapper"><input type="radio" name="radio" class="radio-input visually-hidden" id="radio-input-3" value="3"><label for="radio-input-3" class="radio-label">Option 3</label></div>
+           </fieldset>
+           <button type="submit" class="button"><span class="buton-text">Send info</span></button>
+        </form>
+    </div>
+</body>
+</html>
